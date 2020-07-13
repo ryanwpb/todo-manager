@@ -28,7 +28,7 @@ export default {
 }
 
 body {
-  background: #e8f7f0;
+  background: #dfe5f7;
   line-height: 1.6;
 }
 
