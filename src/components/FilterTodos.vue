@@ -1,7 +1,13 @@
-<template></template>
+<template>
+  <div>
+    <p>Filter Here...</p>
+  </div>
+</template>
 
 <script>
-export default {};
+export default {
+  name: "FilterTodo"
+};
 </script>
 
 <style scoped>
