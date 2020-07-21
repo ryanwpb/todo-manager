@@ -40,7 +40,7 @@ export default {
 .todo {
   border: 1px solid #ccc;
   background: #b3dcd8;
-  color: #fff;
+  color: #227470;
   padding: 1rem;
   border-radius: 0.25rem;
   text-align: center;
@@ -57,6 +57,6 @@ export default {
 }
 
 .is-complete {
-  background: #d6b496;
+  background: #f2ccd4;
 }
 </style>
