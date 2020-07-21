@@ -2,7 +2,12 @@
   <div>
     <h3>Todos Component</h3>
     <div class="todos">
-      <div v-for="todo in allTodos" :key="todo.id" class="todo">
+      <div
+        v-for="todo in allTodos"
+        :key="todo.id"
+        class="todo"
+        v-bind:class="{'is-complete':todo.completed}"
+      >
         {{todo.title}}
         <i @click="deleteTodo(todo.id)" class="fas fa-trash-alt"></i>
       </div>
@@ -34,7 +39,7 @@ export default {
 
 .todo {
   border: 1px solid #ccc;
-  background: #5264e2;
+  background: #b3dcd8;
   color: #fff;
   padding: 1rem;
   border-radius: 0.25rem;
@@ -49,5 +54,9 @@ export default {
   right: 10px;
   color: #fff;
   cursor: pointer;
+}
+
+.is-complete {
+  background: #d6b496;
 }
 </style>

@@ -34,7 +34,7 @@ export default {
 }
 
 body {
-  background: #dfe5f7;
+  background: #227470;
   line-height: 1.6;
 }
 
@@ -47,5 +47,6 @@ body {
 
 h3 {
   margin: 2rem 0;
+  color: #fff;
 }
 </style>
